@@ -1,0 +1,58 @@
+    <style>
+        body{
+            margin: 0px;
+
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            border-radius: 20px;
+      
+            flex-direction: column;
+            height: 500px;
+            width: 500px;
+            background: rgb(209,134,213);
+background: linear-gradient(120deg, rgba(209,134,213,1) 0%, rgba(233,140,220,1) 11%, rgba(0,172,255,1) 62%);
+        }
+
+        .joke{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 30px;
+        }
+
+   
+
+        button{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            width: 200px;
+            font-size: 25px;
+            margin-top: 70px;
+            border-radius: 50px;
+        }
+
+        .button:hover{
+            background: rgb(209,134,213);
+            
+        }
+
+
+
+    </style>
